@@ -32,5 +32,7 @@
     justify-content: center;
     gap: 22px;
     margin: 12px;
+}
+.navLinks {
     color: pink;
 }
