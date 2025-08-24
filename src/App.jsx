@@ -1,12 +1,13 @@
+//import {BrowserRouter, Route, Routes, Link} from "react-router"
 
 import './App.css'
+import Navbar from './NavBar_Page/Navbar'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    
+      <Navbar />
     </>
   )
 }
