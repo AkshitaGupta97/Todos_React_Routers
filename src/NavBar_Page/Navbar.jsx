@@ -5,18 +5,12 @@ function Navbar() {
     return(
         <div className="header">
             <div>
-                <Link className="link"><h2>Navbar</h2></Link>
+                <Link className="nav" to="/" ><h2>Navbar</h2></Link>
             </div>
             <div>
-                <ul>
+                <ul className="ul-link">
                     <li>
                         <Link className="link" to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link className="link" to="/login">Login</Link>
-                    </li>
-                    <li>
-                        <Link className="link" to="/service">Service</Link>
                     </li>
                     <li>
                         <Link className="link" to="/about">About</Link>
@@ -24,7 +18,9 @@ function Navbar() {
                     <li>
                         <Link className="link" to="/contact">Contact</Link>
                     </li>
-                    
+                     <li>
+                        <Link className="link" to="/college">College</Link>
+                    </li>
                 </ul>
             </div>
         </div>

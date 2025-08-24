@@ -1,5 +1,36 @@
 
 .header {
-    background-color: black;
-    color: white;
+    background-color: bisque;
+    color: crimson;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.ul-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    list-style-type: none;
+
+}
+.nav {
+    color: crimson;
+}
+.link {
+    color: rgb(230, 138, 18);
+    font-size: 20px;
+    font-weight: 600;
+}
+.navlink-item{
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    margin: 12px;
+    color: pink;
 }

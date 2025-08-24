@@ -1,13 +1,14 @@
 //import {BrowserRouter, Route, Routes, Link} from "react-router"
 
 import './App.css'
-import Navbar from './NavBar_Page/Navbar'
+import MainNav from './mainNAv'
+
 
 function App() {
 
   return (
     <>
-      <Navbar />
+      < MainNav/>
     </>
   )
 }
