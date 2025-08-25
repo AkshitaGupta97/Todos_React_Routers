@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router"
+import { NavLink, Outlet } from "react-router"
 import './nav.css'
 
 function Navbar() {
@@ -6,27 +6,27 @@ function Navbar() {
         <div>
             <div className="header">
                 <div>
-                    <Link className="nav" to="/" ><h2>Navbar</h2></Link>
+                    <NavLink className="nav" to="/" ><h2>Navbar</h2></NavLink>
                 </div>
                 <div>
                     <ul className="ul-link">
                         <li>
-                            <Link className="link" to="/">Home</Link>
+                            <NavLink className="link" to="/">Home</NavLink>
                         </li>
                         <li>
-                            <Link className="link" to="/about">About</Link>
+                            <NavLink className="link" to="/about">About</NavLink>
                         </li>
                         <li>
-                            <Link className="link" to="/contact">Contact</Link>
+                            <NavLink className="link" to="/contact">Contact</NavLink>
                         </li>
                         <li>
-                            <Link className="link" to="/college">College</Link>
+                            <NavLink className="link" to="/college">College</NavLink>
                         </li>
                         <li>
-                            <Link className="link" to="/user">User</Link>
+                            <NavLink className="link" to="/user">User</NavLink>
                         </li>
                         <li>
-                            <Link className="link" to="/user/list">List</Link>
+                            <NavLink className="link" to="/user/list">List</NavLink>
                         </li>
                     </ul>
                 </div>
