@@ -1,7 +1,7 @@
 //import {BrowserRouter, Route, Routes, Link} from "react-router"
 
 import './App.css'
-import MainNav from './mainNAv'
+import MainNav from './NavBar_Page/mainNAv'
 
 
 function App() {

@@ -7,10 +7,10 @@ export function College() {
             <h2><Link to="/">Go to Home Page</Link></h2>
             <hr />
             <div className="navlink-item">
-                <NavLink className="navLinks" to='student'>Student </NavLink>
+                <NavLink className="navLinks" to='student'>Student </NavLink>  {/* <NavLink className="navLinks" to=''>Student </NavLink> */}
                 <NavLink className="navLinks" to='department'>Department </NavLink>
                 <NavLink className="navLinks" to='course'>Courses </NavLink>
-
+                
                 <Outlet />
             </div>
             
