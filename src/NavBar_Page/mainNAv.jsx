@@ -19,12 +19,16 @@ function MainNav() {
 
             <Routes>
 
-                <Route path="/" element={<Navbar/>}>
+                <Route path="/" element={<Navbar/>}>  {/* i want navbar to show on specific pages */}
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />}  />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path="/user" element={<User />} />
-                    <Route path="/user/:id" element={<UserDetails />} />  {/* this pages will render based on user id */}
+                    <Route path="/contact" element={<Contact />} /> 
+                    {/*<Route path="/user" element={<User />} /> */}
+                    {/* <Route path="/user/:id" element={<UserDetails />} /> */}  {/* it will be rendered when the we go to user id */}
+                    <Route path="/user/list?" element={<User />} />  {/* "/user/list?" => here list is optional  */}
+                    {/* <Route path="/user/list" element={<User />} /> */}
+                    <Route path="/user/:id/:name?" element={<UserDetails />} />  {/* this pages will render based on user id */}
+                    {/* <Route path="/user/:id/name" element={<UserDetails />} /> */}
                 </Route>
 
                 {/*
@@ -32,6 +36,15 @@ function MainNav() {
                 <Route path="/about" element={<About />}  />
                 <Route path="/contact" element={<Contact />} />
                 
+                */}
+
+                {/*
+                    <Route path="in">
+                        <Route path="in/user">
+                            <Route path="/in/user/login" element={<About />}/>
+                            <Route path="/in/user/about" element={<Contact />}/>
+                        </Route>
+                    </Route>
                 */}
 
                 <Route path="/college" element={<College />} >

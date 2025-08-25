@@ -19,6 +19,18 @@ export function User() {
                     </div>
                 ))
             }
+            <hr />
+            <hr />
+            <h3 style={{color:"orange"}}> User Page List with name URL ...</h3>
+            <hr />
+            {
+                userData.map((item) => (
+                    <div style={{textDecoration:"none"}}>
+                                {/* <Link to={"/user/"+ item.id} >  = means pages will render based on id given to them */} 
+                        <h4><Link to={"/user/"+ item.id} > <span style={{color:"mediumaquamarine"}}>{item.name}</span> - <span style={{color:"orange"}}>{item.course}</span> </Link></h4>
+                    </div>
+                ))
+            }
         </div>
     )
 }

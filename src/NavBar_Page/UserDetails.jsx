@@ -10,7 +10,7 @@ export default function UserDetails() {
             <h2>User Details Page</h2>
             <h4 style={{textDecoration:"none", color:"papayawhip"}}> <Link to="/user">Back</Link>  </h4>
             <hr />
-            <h3 style={{color:"green"}}> User id is : <span style={{color:"white"}}>{paramsData.id}</span></h3>
+            <h3 style={{color:"plum"}}> User id is : <span style={{color:"white"}}>{paramsData.id}</span></h3>
         </div>
     )
 }
